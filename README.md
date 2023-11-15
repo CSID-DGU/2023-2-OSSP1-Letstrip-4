@@ -9,8 +9,8 @@
 
 🍿 영화 추천 웹사이트 🍿
 
-기존 github: https://github.com/Wonahyeon/MovieGreen
-
 프로젝트 목표: 사용자들의 수월한 영화 취향 탐색을 위한 추천 웹사이트를 제공합니다.
+
+기존 github: https://github.com/Wonahyeon/MovieGreen
 
 참고한 data: https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset
