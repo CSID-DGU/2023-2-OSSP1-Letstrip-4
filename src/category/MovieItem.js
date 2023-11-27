@@ -100,7 +100,7 @@ const MovieItemBlock = styled.div`
 
 function MovieItem({ movie }) {
   const { title, rank, movieNm, poster_path, id } = movie;
-  const posterUrl = `https://image.tmdb.org/t/p/w500${poster_path}`;
+  const posterUrl = `https://image.tmdb.org/t/p/w342${poster_path}`;
   const navigate = useNavigate();
   const [showInfo, setShowInfo] = useState(false);
   const [movieDetails, setMovieDetails] = useState(null);
