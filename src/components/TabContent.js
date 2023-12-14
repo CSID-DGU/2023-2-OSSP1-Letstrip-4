@@ -136,7 +136,7 @@ function TabContent(props) {
     if (!path) {
       return '';
     }
-    return `https://image.tmdb.org/t/p/w500${path}`;
+    return `https://image.tmdb.org/t/p/w185${path}`;
   };
 
   // 이미지 없는 경우 대체이미지
