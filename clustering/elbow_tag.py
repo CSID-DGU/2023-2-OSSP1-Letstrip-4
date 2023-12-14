@@ -11,7 +11,7 @@ excel_file_path = 'C:/Users/jamie/Downloads/tags.xlsx'
 # 엑셀 파일 읽기
 movies = pd.read_excel(excel_file_path)
 
-# 장르 정보 전처리
+# 태그 정보 전처리
 mlb = MultiLabelBinarizer()
 tags_matrix = mlb.fit_transform(movies['tag'].apply(lambda x: x.split('|')))
 tags_df = pd.DataFrame(tags_matrix, columns=mlb.classes_)
