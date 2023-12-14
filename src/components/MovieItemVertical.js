@@ -91,7 +91,7 @@ const MovieItemVerticalBlock = styled.div`
 
 function MovieItemVertical({ movie }) {
   const { title, rank, movieNm, backdrop_path, id } = movie;
-  const posterUrl = `https://image.tmdb.org/t/p/w500${backdrop_path}`;
+  const posterUrl = `https://image.tmdb.org/t/p/w185${backdrop_path}`;
   const navigate = useNavigate();
   const [showInfo, setShowInfo] = useState(false);
   const [movieDetails, setMovieDetails] = useState(null);
