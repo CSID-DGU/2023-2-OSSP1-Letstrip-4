@@ -6,7 +6,7 @@ function CustomMovieItem({ movie }) {
       <h3>{movie.title}</h3>
       {movie.poster_path ? (
         <img
-          src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
+          src={`https://image.tmdb.org/t/p/w92${movie.poster_path}`}
           alt={movie.title}
         />
       ) : (
