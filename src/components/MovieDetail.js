@@ -153,7 +153,7 @@ function MovieDetail(props) {
     if (!path) {
       return '';
     }
-    return `https://image.tmdb.org/t/p/w185${path}`;
+    return `https://image.tmdb.org/t/p/w92${path}`;
   };
 
   // 에러 이미지 다루는 함수
