@@ -46,7 +46,7 @@ const MovieItemBlock = styled.div`
 
 function MovieTopItem({movie}) {
    const {movieNm,  poster_path} = movie;
-   const posterUrl = `https://image.tmdb.org/t/p/w185${poster_path}`;
+   const posterUrl = `https://image.tmdb.org/t/p/w92${poster_path}`;
    const navigate = useNavigate();
 
    return (
