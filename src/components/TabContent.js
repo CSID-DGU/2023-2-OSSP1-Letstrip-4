@@ -190,7 +190,6 @@ function TabContent(props) {
             <div className='movie-cast'>
               {mainCast.map((cast) => (
                 <div key={cast?.id} className='cursor-pointer cast-item '>
-                  <img src={getImageUrl(cast?.profile_path)} alt={cast?.name} className='profile-img' onError={handleImgError}/>
                   <h3 className='profile-name'>{cast?.name}</h3>
                 </div>
               ))}
@@ -201,8 +200,7 @@ function TabContent(props) {
           'credit' :
           <CreditTab>
             <h2 className='cast-title'>감독</h2>
-            <div className='cast-wrapper cursor-pointer'>
-              <img src={getImageUrl(movieCredits.crew[2]?.profile_path)} alt={movieCredits.crew[2]?.name} style={{marginRight: '2rem'}} onError={handleImgError}/>
+            <div className='cast-wrapper cursor-pointer'
               <h3>{movieCredits.crew[2]?.name}</h3>
             </div>
             <h2 className='cast-title'>주연</h2>
