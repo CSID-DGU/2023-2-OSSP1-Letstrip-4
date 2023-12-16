@@ -9,7 +9,6 @@ function Main(props) {
   const logInStatus = useSelector(selectLoginUser);
   return (
     <div>
-      <Video />
       <MovieTopNumber />
       {logInStatus && <MoviePick/>}
       <MovieListVote />
