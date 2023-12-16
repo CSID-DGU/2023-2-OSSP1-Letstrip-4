@@ -1,5 +1,4 @@
 import React from 'react';
-import Video from '../components/Video';
 import MovieTopNumber from '../components/MovieTopNumber';
 import MoviePick from '../components/MoviePick';
 import MovieListVote from "../components/MovieListVote";
