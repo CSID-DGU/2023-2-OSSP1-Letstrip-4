@@ -1,3 +1,4 @@
+// 로딩 속도 개선 및 필요성이 부족함에 따라 Video.js 삭제
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Youtube from "react-youtube";
