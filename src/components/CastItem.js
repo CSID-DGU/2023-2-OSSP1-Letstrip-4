@@ -27,7 +27,7 @@ function CastItem(props) {
     if (!path) {
       return '';
     }
-    return `https://image.tmdb.org/t/p/w185${path}`;
+    return `https://image.tmdb.org/t/p/w92${path}`;
   };
 
   
