@@ -200,7 +200,7 @@ function TabContent(props) {
           'credit' :
           <CreditTab>
             <h2 className='cast-title'>감독</h2>
-            <div className='cast-wrapper cursor-pointer'
+            <div className='cast-wrapper cursor-pointer'>
               <h3>{movieCredits.crew[2]?.name}</h3>
             </div>
             <h2 className='cast-title'>주연</h2>
